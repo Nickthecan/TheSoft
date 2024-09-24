@@ -1,12 +1,12 @@
 import Checkbox from "../components/Checkbox.jsx";
-
+import "../styles/Home.css";
 
 const Home = () => {
     return(
         <>
             <div className="home">
                 <h1>69 Soft++</h1>
-                <form action="">
+                <form className="checkboxes" action="">
                     <Checkbox id='boba1' nameForCheckBox='Boba Drink 1'/>
                     <Checkbox id='boba2' nameForCheckBox='Boba Drink 2'/>
                     <Checkbox id='boba3' nameForCheckBox='Boba Drink 3'/>
