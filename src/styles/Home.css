@@ -1,4 +1,9 @@
+body {
+    background-color: rgb(141, 192, 177);
+}
+
 .checkboxes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 }

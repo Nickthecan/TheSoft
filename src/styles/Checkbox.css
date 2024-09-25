@@ -1,6 +1,28 @@
 .box-checkbox {
-    width: 300px;
-    height: 100px;
-    border: 1px solid black;
+    height: 250px;
     background-color: #548354;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
+
+label {
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.check {
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(2); /* Safari and Chrome */
+    -o-transform: scale(2); /* Opera */
+    transform: scale(2);
+    padding: 10px;
+}
+
+
+
+
